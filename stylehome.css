@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap");
+* {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(to top, #1b2838, #4c9afa);
+  background-attachment: fixed;
+}
+
+header {
+  position: absolute;
+  width: 1902px;
+  height: 50px;
+  top: 0;
+  left: 0;
+
+  background: #171a21;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.astronauta {
+  position: absolute;
+  width: 603.64px;
+  height: 643.92px;
+  left: 1100px;
+  top: 150px;
+}
+
+.logo {
+  position: absolute;
+  width: 100px;
+  height: 38px;
+  left: 880px;
+  top: 6px;
+}
+
+.planet {
+  position: absolute;
+  width: 128.45px;
+  height: 122px;
+  left: 866px;
+  top: 80px;
+}
+
+.pesquisa {
+  position: absolute;
+  width: 438px;
+  height: 62px;
+  top: 250px;
+  left: 300px;
+
+  font-family: Saira + Condensed Bold;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+
+  font-size: 20px;
+  border: none;
+  outline: 0;
+}
+
+.fundo {
+  position: absolute;
+  width: 438px;
+  height: 71px;
+  top: 250px;
+  left: 305px;
+
+  background: #55e78f;
+  border-radius: 50px;
+}
+
+.back {
+  position: absolute;
+  width: 246px;
+  height: 40px;
+  top: 100px;
+
+  background: #114c73;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
