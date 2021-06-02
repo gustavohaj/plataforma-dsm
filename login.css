@@ -11,7 +11,7 @@ header {
   left: 0px;
   width: 100%;
   height: 80px;
-  background: #171a21;
+  background: #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -22,6 +22,40 @@ header {
   left: 750px;
   top: 20px;
 }
+.imagem{
+    position: absolute;
+    left: 86%;
+    width: 42px;
+    height: 47px;
+    top:15px; 
+}
+.imagem1{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left:90%;
+    top:22px;
+    border-radius: 16px;
+}
+.enter button{
+position: absolute;
+border: none;
+left: 1580px;
+top: 15px;
+font-family: Saira Condensed;
+color: white;
+font-size: 24px;
+cursor: pointer;
+background-color: #000000;;
+padding: 5px 5px;
+
+}
+.enter button:hover {
+    text-decoration: underline rgb(95, 255, 95);
+    text-decoration-thickness: 6px;  
+    border-radius: 20px;
+    transition: 0.3s;
+  }
 
 .menu {
   position: absolute;
@@ -30,7 +64,7 @@ header {
 }
 
 .menu button {
-  background-color: #171a21;
+  background-color: #000000;;
   border: none;
   font-family: Saira Condensed;
   color: white;
@@ -40,11 +74,11 @@ header {
 }
 
 .menu button:hover {
-  text-decoration: underline rgb(95, 255, 95);
-  text-decoration-thickness: 6px;  
-  border-radius: 20px;
-  transition: 0.3s;
-}
+    text-decoration: underline rgb(95, 255, 95);
+    text-decoration-thickness: 6px;  
+    border-radius: 20px;
+    transition: 0.3s;
+  }
 
 #titulo{
     
@@ -52,7 +86,7 @@ position: absolute;
 width: 143px;
 height: 79px;
 top:120px;
-left:350px;
+left:300px;
 font-family: Saira Condensed;
 font-style: normal;
 font-weight: 300;
@@ -67,7 +101,7 @@ position: absolute;
 width: 175px;
 height: 79px;
 top:120px;
-left:850px;
+left:800px;
 font-family: Saira Condensed;
 font-style: normal;
 font-weight: 300;
@@ -94,13 +128,13 @@ border-radius: 10px;
     height: 71px;
     top:300px;
     left:300px;
-    font-family: Saira Condensed Bold;
-    background: #ffffff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Saira Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 57px;
+    color: #B8B2B2;
     border-radius: 10px;
-    font-size: 25px;
-    border: none;
-    outline: 0;
 }
 #forms_entrar1{
     position: absolute;
@@ -108,13 +142,13 @@ border-radius: 10px;
     height: 71px;
     top:400px;
     left:300px;
-    font-family: Saira Condensed Bold;
-    background: #ffffff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Saira Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 57px;
+    color: #B8B2B2;
     border-radius: 10px;
-    font-size: 25px;
-    border: none;
-    outline: 0;
 }
 #entrar{
     position: absolute;
@@ -122,7 +156,10 @@ border-radius: 10px;
     height: 71px;
     top:500px;
     left:300px;
-    font-family: Saira Condensed Bold;
+    font-family: Saira Condensed ;
+    font-style: normal;
+    font-weight: bold0;
+    line-height: 57px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color:rgb(95, 255, 95);
     border-radius: 10px;
@@ -130,5 +167,6 @@ border-radius: 10px;
     border: none;
     outline: 0;
     cursor: pointer;
+    color: white;
 
 }
