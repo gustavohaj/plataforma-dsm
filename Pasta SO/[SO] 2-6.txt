@@ -1,0 +1,4 @@
+[SO] 2/6
+Requisitos para o Web server:
+SO (Windows Server, Linux ou outro)
+Web Server(Apache, IIS etc..)
