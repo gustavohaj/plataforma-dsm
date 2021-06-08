@@ -7,18 +7,18 @@
 ### Justificativa:
  - Preços abusivos direto com os fornecedores;
  - Diversos meios de venda dificultando a busca por melhores preços;
- - Desentralização dos jogos, devido os diferentes produtores e fornecedores.
+ - Decentralização dos jogos, devido os diferentes produtores e fornecedores.
 
 ### Objetivo smart:
- - centralizar os forncedores de jogos;
+ - Centralizar os forncedores de jogos;
  - Fornecer as melhores promoções e descontos; 
  - Promover praticidade na aquisição dos jogos;
 
 ### Benefícios:
  - Divugação da plataforma em propagandas do meio;
- - parcerias comerciais com os grandes playes de fornecimento de jogos;
- - melhor experiencia e satisfação para o cliente;
- - crescimento das ações da empresa;
+ - Parcerias comerciais com os grandes playes de fornecimento de jogos;
+ - Melhor experiencia e satisfação para o cliente;
+ - Crescimento das ações da empresa;
 
 ## O quê?
 
@@ -26,10 +26,10 @@
  - Uma plataforma de venda de jogos digitais.
 
 ### Requisitos
- - deve ter promoções;
- - deve ter centralização dos jogos independente dos fornecedores;
- - deve ter descontos;
- - deve ter desenvolvimento orientado a hipotestes.
+ - Deve ter promoções;
+ - Deve ter centralização dos jogos independente dos fornecedores;
+ - Deve ter descontos;
+ - Deve ter desenvolvimento orientado a hipotestes.
 
 
 ## Quem?
@@ -71,8 +71,8 @@
  - Curva de aprendizado do time as regras de negócio.
 
 ### Linha do tempo
-1. Planejamento e Levantamento de requisitos Jun/2021; 
-2. Prototipação e Aprovação Jun/2021;
+1. Planejamento e Levantamento de requisitos Abr/2021; 
+2. Prototipação e Aprovação Abr/2021;
 3. Desenvolvimento e Testes - Jun/2021;
 4. Implantação e Suporte  - Jul/2021.
 
