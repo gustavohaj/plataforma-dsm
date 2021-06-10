@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400&display=swap');
+body {
+  background-image: linear-gradient(to top, #1b2838, #4c9afa);
+  background-attachment: fixed;
+}
+
+#conteudo{
+    font-family: Saira Condensed;
+    border-collapse: initial;
+
+}
+#rodape {
+  width: 100%;
+  height: 80px;
+  font-family: Saira Condensed;
+  font-size: 12px;
+  text-align: center;
+  color: black;
+  top:100%;
+}

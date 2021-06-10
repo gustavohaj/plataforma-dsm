@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <link rel="stylesheet" href="produto.css">
+    <link rel="stylesheet" href="acessibilidade.css">
     <link rel="shortcut icon" href="images/icon.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,13 +11,27 @@
 </head>
 <body>
     <header>
-        <div class="menu">
-            <a href="index.html"><button>Inicio</button></a>    
-            <button>Suporte</button>
-            <button>Catalogo</button>
-            <button>Noticias</button>
-            <button>Eventos</button>
-          </div>
+      <div id="acessibilidade">
+        <ul id="atalhos">
+         <li><a href="#conteudo" accesskey="1" title="Ir diretamente para o conteúdo">ir para o Conteúdo [1]</a> </li>
+         <li><a href="#menu" accesskey="2" title="Ir diretamente para o menu">Ir para menu[</a></li>
+         <li><a href="#rodapé" accesskey="3" title="Ir diretamente para o rodapé">Ir para Rodapé</a></li>
+     </ul>
+     <ul id="atalhos2">
+         <li><a href="acessibilidade.html" title="ir para a pagina de acessibilidade">Acessibilidade</a></li>
+         <li><a href="#" title="Contraste preto">Contraste preto</a></li>
+         <li><a href="#" title="Sem contraste">Sem contraste</a></li>
+         <li><a href="#" title="Aumentar fonte (Ctrl +)">A+</a></li>
+         <li><a href="#" title="Diminuir fonte (Ctrl -)">A-</a></li>
+     </ul>
+    </div> 
+    <div class="menu">
+      <a href="index.html"><button>Inicio</button></a>
+      <a href="manutecao.html"><button>Suporte</button></a>
+      <a href="manutecao.html"><button>Catalogo</button></a>
+      <a href="manutecao.html"><button>Noticias</button></a>
+      <a href="manutecao.html"><button>Eventos</button></a>
+    </div>
           <a href="index.html"><svg
             class="logo"
             width="98"
@@ -30,6 +45,9 @@
               fill="white"
             />
           </svg></a>
+          <img class="perfil" src="images/perfilbranco 2.png" alt="">
+          <a href="login.html"><button class="entrar">Entrar</button></a>
+          <a href="carrinho.html"><img class="carrinho" src="images/carrinho.png" alt=""></a>
     </header>
     <main class="container">
     <h1 class="produto">PRODUTO</h1>
@@ -69,4 +87,5 @@
 </main>
 
 </body>
+<footer id="rodape"> Todos os direitos reservados &copy; 2021 </footer> <!--Rodapé-->
 </html>

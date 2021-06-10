@@ -39,7 +39,6 @@ header {
       font-size: 24px;
       line-height: 79px;
       color: #FFFFFF;
-
       top:120px;
       }
 
@@ -423,5 +422,26 @@ top:-10px;
   justify-content: center;
   }
 
-
+  .perfil {
+    position: absolute;
+    left: 1690px;
+    top: 10px;
+    width: 34px;
+    height: 32px;
+    cursor: pointer;
+    }
+    .carrinho {
+      position: absolute;
+      top: 0px;
+      left: 1620px;
+      cursor: pointer;
+    }
+}
+#rodape {
+  width: 100%;
+  height: 80px;
+  font-family: Saira Condensed;
+  font-size: 12px;
+  text-align: center;
+  color: black
 }

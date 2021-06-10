@@ -21,7 +21,7 @@ header {
   width: 100px;
   height: 38px;
   left: 890px;
-  top: 6px;
+  top: 10px;
 }
 
 .menu {
@@ -604,3 +604,40 @@ color: #89B404;
   top: 155px;
 }
 
+.perfil {
+  position: absolute;
+  left: 1690px;
+  top: 10px;
+  width: 34px;
+  height: 32px;
+  cursor: pointer;
+  }
+  .carrinho {
+    position: absolute;
+    top: 0px;
+    left: 1620px;
+    cursor: pointer;
+  }
+  .entrar {
+    position: absolute;
+    top: 0px;
+    left: 1730px;
+    font-family: Saira Condensed;
+    font-style: normal;
+    font-weight: bold;
+    background-color: #171a21;
+    border: none;
+    width: 100px;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 5px 15px;
+    cursor: pointer;
+    }
+    #rodape {
+      width: 100%;
+      height: 80px;
+      font-family: Saira Condensed;
+      font-size: 12px;
+      text-align: center;
+      color: black
+  }
