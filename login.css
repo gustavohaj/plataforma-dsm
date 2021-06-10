@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400&display=swap');
 
 body {
   background-image: linear-gradient(to top, #1b2838, #4c9afa);
@@ -10,18 +12,36 @@ header {
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 80px;
-  background: #000000;
+  height: 50px;
+  background: #171a21;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu {
+  position: absolute;
+  left: 20px;
+  top: 2px;
+}
+
+.menu button {
+  background-color: #171a21;
+  border: none;
+  font-family: Saira Condensed;
+  font-weight: 600;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px 20px;
 }
 
 .logo {
   position: absolute;
   width: 100px;
   height: 38px;
-  left: 750px;
-  top: 20px;
+  left: 890px;
+  top: 6px;
 }
+
 .imagem{
     position: absolute;
     left: 86%;
@@ -56,28 +76,20 @@ padding: 5px 5px;
     border-radius: 20px;
     transition: 0.3s;
   }
-
-.menu {
-  position: absolute;
-  top: 15px;
-  left: 20px;
-}
-
-.menu button {
-  background-color: #000000;;
-  border: none;
-  font-family: Saira Condensed;
-  color: white;
-  font-size: 24px;
-  cursor: pointer;
-  padding: 5px 5px;
-}
-
-.menu button:hover {
-    text-decoration: underline rgb(95, 255, 95);
-    text-decoration-thickness: 6px;  
-    border-radius: 20px;
-    transition: 0.3s;
+  .menu button {
+    background-color: #171a21;
+    border: none;
+    font-family: Saira Condensed;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 5px 20px;
+  }
+  
+  button:hover{
+    background-color: #5c71a1;
+    transition: .1s;
+    color: #171a21;
   }
 
 #titulo{
@@ -90,7 +102,7 @@ left:300px;
 font-family: Saira Condensed;
 font-style: normal;
 font-weight: 300;
-font-size: 65px;
+font-size: 50px;
 line-height: 79px;
 color: #FFFFFF;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -105,7 +117,7 @@ left:800px;
 font-family: Saira Condensed;
 font-style: normal;
 font-weight: 300;
-font-size: 65px;
+font-size: 50px;
 line-height: 79px;
 color: #FFFFFF;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -113,10 +125,10 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 #separa{
 position: absolute;
-width: 8px;
+width: 3px;
 height: 520px;
 top:165px;
-left:730px;
+left:740px;
 background: #FFFCFC;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 10px;
@@ -135,6 +147,7 @@ border-radius: 10px;
     line-height: 57px;
     color: #B8B2B2;
     border-radius: 10px;
+    border: none;
 }
 #forms_entrar1{
     position: absolute;
@@ -149,6 +162,7 @@ border-radius: 10px;
     line-height: 57px;
     color: #B8B2B2;
     border-radius: 10px;
+    border: none;
 }
 #entrar{
     position: absolute;
@@ -161,12 +175,147 @@ border-radius: 10px;
     font-weight: bold0;
     line-height: 57px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color:rgb(95, 255, 95);
+    background-color: #55E78F;
     border-radius: 10px;
     font-size: 25px;
     border: none;
     outline: 0;
     cursor: pointer;
     color: white;
+}
+
+#entrar:hover {
+  background-color: #48d681;
+}
+
+.container {
+position: absolute;
+left: 150px;
+}
+
+#e-mail2 {
+  position: absolute;
+  left: 790px;
+  top: 295px;
+
+  width: 539px;
+  height: 72px;
+
+  background: #FFFCFC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: none;
+
+  font-family: Saira Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 57px;
+}
+
+#nome {
+  position: absolute;
+  left: 790px;
+  top: 400px;
+
+  width: 260px;
+height: 72px;
+
+background: #FFFCFC;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+border: none;
+
+font-family: Saira Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 57px;
+}
+
+#nome2 {
+  position: absolute;
+  left: 1070px;
+  top: 400px;
+
+  width: 260px;
+height: 72px;
+
+background: #FFFCFC;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+border: none;
+
+font-family: Saira Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 57px;
+}
+
+#senha {
+  position: absolute;
+  left: 790px;
+  top: 500px;
+
+  width: 260px;
+  height: 72px;
+
+  background: #FFFCFC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  border: none;
+
+  font-family: Saira Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 57px;
+}
+
+#senha2 {
+  position: absolute;
+  left: 1070px;
+  top: 500px;
+
+  width: 260px;
+  height: 72px;
+
+  background: #FFFCFC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  border: none;
+
+  font-family: Saira Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 57px;
+}
+
+#confirm {
+  position: absolute;
+  width: 539px;
+  height: 72px;
+  
+  background: #55E78F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  left: 790px;
+  top: 600px;
+  border: none;
+
+  font-family: Saira Condensed;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 57px;
+
+color: #FFFFFF;
 
 }

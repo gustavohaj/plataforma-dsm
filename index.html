@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="shortcut icon" href="images/icon.png">
     <link rel="stylesheet" href="stylehome.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Bleezer - O seus jogos estão aqui</title>
   </head>
   <header>
+    <div class="menu">
+      <button>Inicio</button>
+      <button>Suporte</button>
+      <button>Catalogo</button>
+      <button>Noticias</button>
+      <button>Eventos</button>
+      <a href="produto.html"><button>Cadastrar Produtos</button></a>
+    </div>
+   <img class="perfil" src="images/perfilbranco 2.png" alt="">
+      
+   <a href="login.html"><button class="entrar">Entrar</button></a>
+  
     <svg
       class="logo"
       width="98"
@@ -21,15 +34,21 @@
         fill="white"
       />
     </svg>
+
+    <a href="carrinho.html"><img class="carrinho" src="images/carrinho.png" alt=""></a>
   </header>
 
   <body>
+    
+    <img class="star" src="images/Group 3.png" alt="">
+
     <div class="menu-principal">
       <img class="astronauta" src="./images/Group 1.png" alt="astronauta" />
       <img class="planet" src="images/Group 2.png" alt="planet" />
     </div>
 
-    <div>
+    <div class="tudo">
+    <div class="search">
       <div class="fundo"></div>
       <input
         class="pesquisa"
@@ -37,5 +56,104 @@
         placeholder="DIGITE O NOME DO SEU JOGO FAVORITO"
       />
     </div>
+
+
+    
+
+  <div class="allitems">
+  <div class="carrossel">
+    <div class="carrobox">
+       <img src="images/Rectangle 38.png" alt="">
+       <div class="porcent"><p>4%-</p></div>
+       <div class="preco"><p>R$10,86</p></div>
+    </div>
+    <div class="carrobox">
+      <img src="images/Rectangle 37.png" alt="">
+      <div class="porcent2"><p>4%-</p></div>
+      <div class="preco"><p>R$82,50</p></div>
+   </div>
+   <div class="carrobox">
+      <img src="images/Rectangle 33.png" alt="">
+      <div class="porcent3"><p>4%-</p></div>
+      <div class="preco"><p>R$43,70</p></div>
+    </div>
+ <div class="carrobox">
+      <img src="images/Rectangle 1.png" alt="">
+      <div class="porcent4"><p>4%-</p></div>
+      <div class="preco"><p>R$82,50</p></div>
+</div>
+<div class="carrobox">
+  <img src="images/Rectangle 4.png" alt="">
+  <div class="porcent4"><p>4%</p></div>
+  <div class="preco"></div>
+</div>
+<div class="carrobox">
+  <img src="images/Rectangle 5.png" alt="">
+  <div class="porcent5"><p>4%</p></div>
+  <div class="preco"></div>
+</div>
+<div class="carrobox">
+  <img src="images/Rectangle 38.png" alt="">
+  <div class="porcent6"><p>4%</p></div>
+  <div class="preco"><p>R$10,86</p></div>
+</div>
+<div class="carrobox">
+  <img src="images/Rectangle 38.png" alt="">
+  <div class="porcent7"><p>4%</p></div>
+  <div class="preco"><p>R$10,86</p></div>
+</div>
+<div class="carrobox">
+  <img src="images/Rectangle 38.png" alt="">
+  <div class="porcent8"><p>4%</p></div>
+  <div class="preco"><p>R$10,86</p></div>
+</div>
+
+  </div>
+  </div>
+
+    <div class="slider">
+      <div class="slides">
+          <!--radio buttons start -->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+
+          <!--slide images start-->
+          <div class="slide first">
+              <img src="images/img1.jpg" alt="">
+          </div>
+          <div class="slide">
+              <img src="images/img2.jpg" alt="">
+          </div>
+          <div class="slide">
+              <img src="images/img3.jpg" alt="">
+          </div>
+          <div class="slide">
+              <img src="images/img4.jpg" alt="">
+          </div>
+>           <!--slide images end-->
+
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
+
+          <!--manual navigation start-->
+          <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+          </div>
+          <!--manual navigation end-->
+      </div>
+  </div>
+</div>
   </body>
 </html>

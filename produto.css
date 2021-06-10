@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400&display=swap');
+
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background: #171a21;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  body {
+    background-image: linear-gradient(to top, #1b2838, #4c9afa);
+    background-attachment: fixed;
+  }
+
+  .produto{
+    position: absolute;
+    font-family: Saira Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 79px;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    }
+
+    .cadastro{
+      position: absolute;
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 79px;
+      color: #FFFFFF;
+
+      top:120px;
+      }
+
+.dev{
+  background: #FFFCFC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-family: Saira Condensed;
+  font-weight: 600;
+
+  width: 99%;
+  height: 50px;
+}
+
+.name{
+  background: #FFFCFC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-family: Saira Condensed;
+  font-weight: 600;
+
+  width: 99%;
+  height: 50px;
+  margin-top: 10px;
+}
+
+#descri {
+  width: 99%;
+  height: 100px;
+  margin-top: 10px;
+  
+  background: #FFFCFC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.desenvolver {
+  width: 49%;
+  height: 30px;
+  
+  background: #FFFCFC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: none;
+  font-family: Saira Condensed;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 8px;
+  }
+
+  .desenvolver2 {
+    width: 50%;
+    height: 30px;
+    
+    background: #FFFCFC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+    font-family: Saira Condensed;
+    font-size: 20px;
+    }
+    .desenvolver3 {
+      width: 49%;
+      height: 30px;
+      
+      background: #FFFCFC;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      border: none;
+      font-family: Saira Condensed;
+      font-size: 20px;
+      margin-top: 10px;
+      }
+      .desenvolver4 {
+        width: 50%;
+        height: 30px;
+        
+        background: #FFFCFC;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        border: none;
+        font-family: Saira Condensed;
+        font-size: 20px;
+        }
+        
+        .cadastrar {
+          width: 100%;
+          height: 83px;
+          
+          background: #55E78F;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 10px;
+          cursor: pointer;
+          font-size: 24px;
+          font-family: Saira Condensed;
+          font-weight: 600;
+          color: white;
+          border: none;
+          margin-top: 20px;
+        }
+
+.carregador {
+
+  position: absolute;
+  top:200px;
+  right: 10px;
+  left: 10px;
+  
+}
+
+button {
+  background-color: #171a21;;
+  border: none;
+  font-family: Saira Condensed;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px 20px;
+  font-weight: 600;
+}
+
+.logo {
+  position: absolute;
+  top: 750px;
+  left: 198px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1100px) {
+
+  header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background: #171a21;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  body {
+    background-image: linear-gradient(to top, #1b2838, #4c9afa);
+    background-attachment: fixed;
+  }
+
+
+  h1 {
+  position: absolute;
+  left: 820px;
+  top: 50px;
+
+  font-family: Saira Condensed;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 79px;
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  }
+
+.desenvolver {
+position: absolute;
+left: 570px;
+top:640px;
+width: 229px;
+height: 55px;
+
+background: #FFFCFC;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+border: none;
+font-family: Saira Condensed;
+font-size: 20px;
+font-weight: 600;
+}
+
+.desenvolver2 {
+  position: absolute;
+  left: 818px;
+  top:640px;
+  width: 229px;
+  height: 55px;
+  
+  background: #FFFCFC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: none;
+  font-family: Saira Condensed;
+font-size: 20px;
+  }
+
+  .desenvolver3 {
+    position: absolute;
+    left: 570px;
+    top:715px;
+    width: 229px;
+    height: 55px;
+    
+    background: #FFFCFC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+    font-family: Saira Condensed;
+font-size: 20px;
+    }
+
+    .desenvolver4 {
+      position: absolute;
+      left: 818px;
+      top:715px;
+      width: 229px;
+      height: 55px;
+      
+      background: #FFFCFC;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      border: none;
+      font-family: Saira Condensed;
+font-size: 20px;
+      }
+
+.cadastro {
+  position: absolute;
+  width: 253px;
+  height: 47px;
+  top:250px;
+  left: 570px;
+  
+  font-family: Saira Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 47px;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dev{
+  position: absolute;
+  left: 570px;
+  top:320px;
+  width: 469px;
+  height: 55px;
+  
+  background: #FFFCFC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-family: Saira Condensed;
+  font-weight: 600;
+
+}
+
+.name {
+  position: absolute;
+  left: 570px;
+  top:391px;
+  width: 469px;
+  height: 55px;
+  
+  background: #FFFCFC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-family: Saira Condensed;
+  font-weight: 600;
+}
+
+#descri {
+  position: absolute;
+  left: 570px;
+  top:463px;
+  width: 471px;
+  height: 135px;
+  
+  background: #FFFCFC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.anexo {
+  position: absolute;
+  width: 177px;
+  height: 283px;
+  left: 1065px;
+  top: 320px;
+  
+  background: #FFFCFC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.menu {
+  position: absolute;
+  top: 1px;
+  left: 20px;
+}
+
+.menu button {
+  background-color: #171a21;;
+  border: none;
+  font-family: Saira Condensed;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px 20px;
+  font-weight: 600;
+}
+
+button:hover{
+  background-color: #5c71a1;
+  transition: .1s;
+  color: #171a21;
+}
+
+.logo {
+  position: absolute;
+  width: 100px;
+  height: 38px;
+  left: 890px;
+  top: 6px;
+}
+
+.container {
+position: absolute;
+left: 33px;
+top:-10px;
+}
+
+.cadastrar {
+  position: absolute;
+  width: 683px;
+  height: 83px;
+  
+  background: #55E78F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  left:570px;
+  top:800px;
+  cursor: pointer;
+  font-size: 24px;
+  font-family: Saira Condensed;
+  font-weight: 600;
+  color: white;
+  border: none;
+}
+
+.segura {
+  position: absolute;
+  top:-50px;
+}
+
+.carregador {
+
+  position: absolute;
+  top:10px;
+  left: 0px;
+  
+}
+
+.produto{
+  position: absolute;
+  font-family: Saira Condensed;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 79px;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+  }
+
+
+}
