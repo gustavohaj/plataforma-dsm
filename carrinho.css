@@ -16,42 +16,23 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.logo {
-  position: absolute;
-  width: 100px;
-  height: 38px;
-  left: 890px;
-  top: 10px;
-}
-
-.menu {
-  position: absolute;
-  top: 1px;
-  left: 20px;
-}
-
 .menu button {
-  background-color: #171a21;;
-  border: none;
-  font-family: Saira Condensed;
-  color: white;
-  font-size: 24px;
-  cursor: pointer;
-  padding: 5px 20px;
-  font-weight: 600;
+  margin-left: -20px;
+  width: 109px;
+  
 }
 
-button:hover{
-  background-color: #5c71a1;
-  transition: .1s;
-  color: #171a21;
+#rodape {
+  position: absolute;
+  top: 950px;
+  left: -10px;
 }
 
 #container {
   position: absolute;
-  width: 512px;
+  width: 440px;
   height: 621px;
-  left: 400px;
+  left: 20px;
   top: 200px;
 
   background: linear-gradient(180deg, #1b1d22 0%, #3f4043 100%), #171a21;
@@ -61,7 +42,7 @@ button:hover{
 
 .container2 {
   position: absolute;
-  width: 512px;
+  width: 440px;
   height: 534px;
   left: 0px;
   top: 40px;
@@ -71,285 +52,776 @@ button:hover{
   border-radius: 10px;
 }
 
-#pagamento {
+#linha-horizontal {
   position: absolute;
-  width: 246px;
-  height: 299px;
-  left: 930px;
-  top: 200px;
-
-  background: linear-gradient(180deg, #1b1d22 0%, #3f4043 100%), #171a21;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-}
-
-.pagamento2 {
-  position: absolute;
-  width: 246px;
-  height: 198px;
-  left: 0px;
-  top: 40px;
-
-  background: #fffcfc;
-  border-radius: 10px;
-}
-
-.back {
-  position: absolute;
-  width: 246px;
-  height: 40px;
-  top: 140px;
-  left: 930px;
-  border: none;
-  font-family: Saira Condensed;
-  color: white;
-  font-size: 24px;
-
-  background: #114c73;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.back:hover {
-  background-color: #2e84bd;
-  transition: 0.1s;
-}
-
-.finalizar {
-  position: absolute;
-  width: 246px;
-  height: 64px;
-  font-size: 24px;
-  left: 930px;
-  top: 520px;
-  border: none;
-  font-family: Saira Condensed;
-  color: white;
-
-  background: #bc2d2d;
-  box-shadow: 0px 4px 4px rgba(188, 45, 45, 0.7);
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.finalizar:hover {
-  background-color: #af2f2f;
-  transition: 0.1s;
-}
-
-.centralizador {
-  position: absolute;
-  left: 160px;
-  top: 8px;
-}
-
-.namecarrinho {
-  position: absolute;
-  left: 0px;
-  top: -140px;
-
-  font-family: Saira Condensed;
-font-style: normal;
-font-weight: 300;
-font-size: 50px;
-line-height: 79px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.produtos {
-  position: absolute;
-  left: 205px;
-  top: -22px;
-
-  font-family: Saira Condensed;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 38px;
-
-  color: #FFFFFF;
-}
-
-.formas {
-position: absolute;
-left: 18px;
-top: -23px;
-
-font-family: Saira Condensed;
-color: white;
-font-size: 24px;
-}
-
-.total {
-  position: absolute;
-  left: 10px;
-  top: 234px;
-  color: white;
-  font-family: Saira Condensed;
-  font-size: 20px;  }
-
-  #linha-horizontal {
-    position: absolute;
-    top: 100px;
-    left: 26px;
-    width: 450px;
-    border: 1px solid #C4C4C4;
-    transform: matrix(1, 0, 0, -1, 0, 0);
+  top: 100px;
+  left: 26px;
+  width: 380px;
+  border: 1px solid #C4C4C4;
+  transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 #linha-horizontal2 {
-  position: absolute;
-  top: 210px;
-  left: 26px;
-  width: 450px;
-  border: 1px solid #C4C4C4;
-  transform: matrix(1, 0, 0, -1, 0, 0);
+position: absolute;
+top: 210px;
+left: 26px;
+width: 380px;
+border: 1px solid #C4C4C4;
+transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 #linha-horizontal3 {
-  position: absolute;
-  top: 320px;
-  left: 26px;
-  width: 450px;
-  border: 1px solid #C4C4C4;
-  transform: matrix(1, 0, 0, -1, 0, 0);
+position: absolute;
+top: 320px;
+left: 26px;
+width: 380px;
+border: 1px solid #C4C4C4;
+transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 #linha-horizontal4 {
-  position: absolute;
-  top: 430px;
-  left: 26px;
-  width: 450px;
-  border: 1px solid #C4C4C4;
-  transform: matrix(1, 0, 0, -1, 0, 0);
+position: absolute;
+top: 430px;
+left: 26px;
+width: 380px;
+border: 1px solid #C4C4C4;
+transform: matrix(1, 0, 0, -1, 0, 0);
 }
+
 
 .jogo {
-position: absolute;
-left: 25px;
-top: 10px;
-}
-
-.jogo2 {
   position: absolute;
   left: 25px;
-  top: 115px;
+  top: 10px;
   }
-
-  .jogo3 {
+  
+  .jogo2 {
     position: absolute;
     left: 25px;
-    top: 225px;
+    top: 115px;
     }
-
-    .jogo4 {
+  
+    .jogo3 {
       position: absolute;
       left: 25px;
-      top: 335px;
+      top: 225px;
       }
-
-      .jogo5 {
+  
+      .jogo4 {
         position: absolute;
         left: 25px;
-        top: 445px;
+        top: 335px;
         }
-
-.gamename {
-  position: absolute;
-  left: 200px;
-  top: 17px;
-  font-family: Saira Condensed;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 31px;
   
-  color: #323232;
-}
+        .jogo5 {
+          position: absolute;
+          left: 25px;
+          top: 445px;
+          }
+.back {
+      position: absolute;
+      width: 246px;
+      height: 40px;
+      top: 140px;
+      left: 117px;
+      border: none;
+      font-family: Saira Condensed;
+      color: white;
+      font-size: 24px;
+    
+      background: #114c73;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      cursor: pointer;
+    } 
 
-.gamename2{
-  position: absolute;
-  left: 200px;
-  top: 120px;
-  font-family: Saira Condensed;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 31px;
-  
-  color: #323232;
-}
+    .namecarrinho {
+      position: absolute;
+      left: 175px;
+      top: -160px;
+    
+      font-family: Saira Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 79px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
 
-.gamename3{
-  position: absolute;
-  left: 200px;
-  top: 230px;
-  font-family: Saira Condensed;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 31px;
-  
-  color: #323232;
-}
+    .gamename {
+      position: absolute;
+      left: 200px;
+      top: 17px;
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 31px;
+      
+      color: #323232;
+    }
 
-.gamename4{
-  position: absolute;
-  left: 200px;
-  top: 340px;
-  font-family: Saira Condensed;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 31px;
-  
-  color: #323232;
-}
+    .gamename2{
+      position: absolute;
+      left: 200px;
+      top: 120px;
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 31px;
+      
+      color: #323232;
+    }
+    
+    .gamename3{
+      position: absolute;
+      left: 200px;
+      top: 230px;
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 31px;
+      
+      color: #323232;
+    }
+    
+    .gamename4{
+      position: absolute;
+      left: 200px;
+      top: 340px;
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 31px;
+      
+      color: #323232;
+    }
+    
+    .gamename5{
+      position: absolute;
+      left: 200px;
+      top: 450px;
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 31px;
+      
+      color: #323232;
+    }
 
-.gamename5{
-  position: absolute;
-  left: 200px;
-  top: 450px;
-  font-family: Saira Condensed;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 31px;
-  
-  color: #323232;
-}
+    .finalizar {
+      position: absolute;
+      width: 246px;
+      height: 64px;
+      font-size: 24px;
+      left: 105px;
+      top: 850px;
+      border: none;
+      font-family: Saira Condensed;
+      color: white;
+    
+      background: #bc2d2d;
+      box-shadow: 0px 4px 4px rgba(188, 45, 45, 0.7);
+      border-radius: 5px;
+      cursor: pointer;
+    }
 
-.precin {
-position: absolute;
-top: 35px;
-left: 397px;
-width: 100%;
-font-family: Saira Condensed;
-font-weight: 490;
-font-size: 24px;
-color: #007DCF;
-}
+    .precin {
+      position: absolute;
+      top: 10px;
+      left: 350px;
+      width: 100%;
+      font-family: Saira Condensed;
+      font-weight: 490;
+      font-size: 24px;
+      color: #007DCF;
+      }
+      
+      .precin2 {
+        position: absolute;
+        top: 115px;
+        left: 350px;
+        width: 100%;
+        font-family: Saira Condensed;
+        font-weight: 490;
+        font-size: 24px;
+        color: #007DCF;
+        }
+      
+        .precin3 {
+          position: absolute;
+          top: 230px;
+          left: 350px;
+          width: 100%;
+          font-family: Saira Condensed;
+          font-weight: 490;
+          font-size: 24px;
+          color: #007DCF;
+          }
+      
+          .precin4 {
+            position: absolute;
+            top: 335px;
+            left: 350px;
+            width: 100%;
+            font-family: Saira Condensed;
+            font-weight: 490;
+            font-size: 24px;
+            color: #007DCF;
+            }
+      
+      
+            .precin5 {
+              position: absolute;
+              top: 440px;
+              left: 350px;
+              width: 100%;
+              font-family: Saira Condensed;
+              font-weight: 490;
+              font-size: 24px;
+              color: #007DCF;
+              }
 
-.precin2 {
-  position: absolute;
-  top: 150px;
-  left: 397px;
-  width: 100%;
-  font-family: Saira Condensed;
-  font-weight: 490;
-  font-size: 24px;
-  color: #007DCF;
-  }
+              .desconto {
+                position: absolute;
+                left: 280px;
+                top: 5px;
+                
+                font-family: Saira Condensed;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 28px;
+                text-decoration: line-through;
+              
+                color: #062437;
+              }
+              
+              .desconto2 {
+                position: absolute;
+                left: 280px;
+                top: 100px;
+                
+                font-family: Saira Condensed;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 28px;
+                text-decoration: line-through;
+              
+                color: #062437;
+              }
+              
+              .desconto3 {
+                position: absolute;
+                left: 280px;
+                top: 210px;
+                
+                font-family: Saira Condensed;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 28px;
+                text-decoration: line-through;
+              
+                color: #062437;
+              }
+              
+              .desconto4 {
+                position: absolute;
+                left: 280px;
+                top: 320px;
+                
+                font-family: Saira Condensed;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 28px;
+                text-decoration: line-through;
+              
+                color: #062437;
+              }
+              
+              .desconto5 {
+                position: absolute;
+                left: 280px;
+                top: 430px;
+                
+                font-family: Saira Condensed;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 28px;
+                text-decoration: line-through;
+              
+                color: #062437;
+              }
+              
+              .porcent {
+              position: absolute;
+              left: 350px;
+              top: 5px;
+              
+              font-family: Saira Condensed;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 28px;
+              
+              color: #89B404;
+              }
+              
+              .porcent2 {
+                position: absolute;
+                left: 350px;
+                top: 100px;
+                
+                font-family: Saira Condensed;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 28px;
+                
+                color: #89B404;
+                }
+              
+                .porcent3 {
+                  position: absolute;
+                  left: 350px;
+                  top: 210px;
+                  
+                  font-family: Saira Condensed;
+                  font-weight: 600;
+                  font-size: 18px;
+                  line-height: 28px;
+                  
+                  color: #89B404;
+                  }
+              
+                  .porcent4 {
+                    position: absolute;
+                    left: 350px;
+                    top: 320px;
+                    
+                    font-family: Saira Condensed;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 28px;
+                    
+                    color: #89B404;
+                    }
+              
+                    .porcent5 {
+                      position: absolute;
+                      left: 350px;
+                      top: 430px;
+                      
+                      font-family: Saira Condensed;
+                      font-weight: 600;
+                      font-size: 18px;
+                      line-height: 28px;
+                      
+                      color: #89B404;
+                      }
+                      .subtotal {
+                        position: absolute;
+                        top: 517px;
+                        left: 13px;
+                        font-family: Saira Condensed;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 24px;
+                        line-height: 38px;
+                        
+                        
+                        color: #FFFFFF;
+                      }
+                      
+                      
+                      .subtotal2 {
+                        position: absolute;
+                        top: 517px;
+                        left: 250px;
+                        font-family: Saira Condensed;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 24px;
+                        line-height: 38px;
+                        text-decoration: line-through;
+                        
+                        
+                        color: #BC2D2D;;
+                      }
 
-  .precin3 {
+                      .subtotal3 {
+                        position: absolute;
+                        top: 517px;
+                        left: 340px;
+                        font-family: Saira Condensed;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 24px;
+                        line-height: 38px;
+                        
+                        
+                        color: #89B404;
+                        ;
+                      }
+
+                      .produtos {
+                        position: absolute;
+                        left: 175px;
+                        top: -22px;
+                      
+                        font-family: Saira Condensed;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 24px;
+                        line-height: 38px;
+                      
+                        color: #FFFFFF;
+                      }
+                      
+                      .check {
+                        position: absolute;
+                        left: 20px;
+                        top: -100px;
+                      }
+                      
+                      .check2 {
+                        position: absolute;
+                        left: 20px;
+                        top: -100px;
+                      }
+                      
+                      .check3 {
+                        position: absolute;
+                        left: 20px;
+                        top: -100px;
+                      }
+
+
+
+  @media (min-width: 1100px) {
+    .logo {
+      position: absolute;
+      width: 100px;
+      height: 38px;
+      left: 890px;
+      top: 10px;
+    }
+    
+    .menu {
+      position: absolute;
+      top: 1px;
+      left: 20px;
+    }
+    
+    .menu button {
+      background-color: #171a21;;
+      border: none;
+      font-family: Saira Condensed;
+      color: white;
+      font-size: 24px;
+      cursor: pointer;
+      padding: 5px 20px;
+      font-weight: 600;
+    }
+    
+    button:hover{
+      background-color: #5c71a1;
+      transition: .1s;
+      color: #171a21;
+    }
+    
+    #container {
+      position: absolute;
+      width: 512px;
+      height: 621px;
+      left: 400px;
+      top: 200px;
+    
+      background: linear-gradient(180deg, #1b1d22 0%, #3f4043 100%), #171a21;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+    }
+    
+    .container2 {
+      position: absolute;
+      width: 512px;
+      height: 534px;
+      left: 0px;
+      top: 40px;
+    
+      background: #fffcfc;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+    }
+    
+    #pagamento {
+      position: absolute;
+      width: 246px;
+      height: 299px;
+      left: 930px;
+      top: 200px;
+    
+      background: linear-gradient(180deg, #1b1d22 0%, #3f4043 100%), #171a21;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+    }
+    
+    .pagamento2 {
+      position: absolute;
+      width: 246px;
+      height: 198px;
+      left: 0px;
+      top: 40px;
+    
+      background: #fffcfc;
+      border-radius: 10px;
+    }
+    
+    .back {
+      position: absolute;
+      width: 246px;
+      height: 40px;
+      top: 140px;
+      left: 930px;
+      border: none;
+      font-family: Saira Condensed;
+      color: white;
+      font-size: 24px;
+    
+      background: #114c73;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .back:hover {
+      background-color: #2e84bd;
+      transition: 0.1s;
+    }
+    
+    .finalizar {
+      position: absolute;
+      width: 246px;
+      height: 64px;
+      font-size: 24px;
+      left: 930px;
+      top: 520px;
+      border: none;
+      font-family: Saira Condensed;
+      color: white;
+    
+      background: #bc2d2d;
+      box-shadow: 0px 4px 4px rgba(188, 45, 45, 0.7);
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .finalizar:hover {
+      background-color: #af2f2f;
+      transition: 0.1s;
+    }
+    
+    .centralizador {
+      position: absolute;
+      left: 160px;
+      top: 8px;
+    }
+    
+    .namecarrinho {
+      position: absolute;
+      left: 0px;
+      top: -140px;
+    
+      font-family: Saira Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 79px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .produtos {
+      position: absolute;
+      left: 205px;
+      top: -22px;
+    
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 38px;
+    
+      color: #FFFFFF;
+    }
+    
+    .formas {
     position: absolute;
-    top: 260px;
+    left: 18px;
+    top: -23px;
+    
+    font-family: Saira Condensed;
+    color: white;
+    font-size: 24px;
+    }
+    
+    .total {
+      position: absolute;
+      left: 10px;
+      top: 234px;
+      color: white;
+      font-family: Saira Condensed;
+      font-size: 20px;  }
+    
+      #linha-horizontal {
+        position: absolute;
+        top: 100px;
+        left: 26px;
+        width: 450px;
+        border: 1px solid #C4C4C4;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    
+    #linha-horizontal2 {
+      position: absolute;
+      top: 210px;
+      left: 26px;
+      width: 450px;
+      border: 1px solid #C4C4C4;
+      transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    
+    #linha-horizontal3 {
+      position: absolute;
+      top: 320px;
+      left: 26px;
+      width: 450px;
+      border: 1px solid #C4C4C4;
+      transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    
+    #linha-horizontal4 {
+      position: absolute;
+      top: 430px;
+      left: 26px;
+      width: 450px;
+      border: 1px solid #C4C4C4;
+      transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    
+    .jogo {
+    position: absolute;
+    left: 25px;
+    top: 10px;
+    }
+    
+    .jogo2 {
+      position: absolute;
+      left: 25px;
+      top: 115px;
+      }
+    
+      .jogo3 {
+        position: absolute;
+        left: 25px;
+        top: 225px;
+        }
+    
+        .jogo4 {
+          position: absolute;
+          left: 25px;
+          top: 335px;
+          }
+    
+          .jogo5 {
+            position: absolute;
+            left: 25px;
+            top: 445px;
+            }
+    
+    .gamename {
+      position: absolute;
+      left: 200px;
+      top: 17px;
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 31px;
+      
+      color: #323232;
+    }
+    
+    .gamename2{
+      position: absolute;
+      left: 200px;
+      top: 120px;
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 31px;
+      
+      color: #323232;
+    }
+    
+    .gamename3{
+      position: absolute;
+      left: 200px;
+      top: 230px;
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 31px;
+      
+      color: #323232;
+    }
+    
+    .gamename4{
+      position: absolute;
+      left: 200px;
+      top: 340px;
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 31px;
+      
+      color: #323232;
+    }
+    
+    .gamename5{
+      position: absolute;
+      left: 200px;
+      top: 450px;
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 31px;
+      
+      color: #323232;
+    }
+    
+    .precin {
+    position: absolute;
+    top: 35px;
     left: 397px;
     width: 100%;
     font-family: Saira Condensed;
@@ -357,10 +829,10 @@ color: #007DCF;
     font-size: 24px;
     color: #007DCF;
     }
-
-    .precin4 {
+    
+    .precin2 {
       position: absolute;
-      top: 370px;
+      top: 150px;
       left: 397px;
       width: 100%;
       font-family: Saira Condensed;
@@ -368,11 +840,10 @@ color: #007DCF;
       font-size: 24px;
       color: #007DCF;
       }
-
-
-      .precin5 {
+    
+      .precin3 {
         position: absolute;
-        top: 470px;
+        top: 260px;
         left: 397px;
         width: 100%;
         font-family: Saira Condensed;
@@ -380,112 +851,109 @@ color: #007DCF;
         font-size: 24px;
         color: #007DCF;
         }
-
-.desconto {
-  position: absolute;
-  left: 397px;
-  top: 5px;
-  
-  font-family: Saira Condensed;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
-  text-decoration: line-through;
-
-  color: #062437;
-}
-
-.desconto2 {
-  position: absolute;
-  left: 397px;
-  top: 100px;
-  
-  font-family: Saira Condensed;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
-  text-decoration: line-through;
-
-  color: #062437;
-}
-
-.desconto3 {
-  position: absolute;
-  left: 397px;
-  top: 210px;
-  
-  font-family: Saira Condensed;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
-  text-decoration: line-through;
-
-  color: #062437;
-}
-
-.desconto4 {
-  position: absolute;
-  left: 397px;
-  top: 320px;
-  
-  font-family: Saira Condensed;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
-  text-decoration: line-through;
-
-  color: #062437;
-}
-
-.desconto5 {
-  position: absolute;
-  left: 397px;
-  top: 430px;
-  
-  font-family: Saira Condensed;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
-  text-decoration: line-through;
-
-  color: #062437;
-}
-
-.porcent {
-position: absolute;
-left: 350px;
-top: 5px;
-
-font-family: Saira Condensed;
-font-weight: 600;
-font-size: 18px;
-line-height: 28px;
-
-color: #89B404;
-}
-
-.porcent2 {
-  position: absolute;
-  left: 350px;
-  top: 100px;
-  
-  font-family: Saira Condensed;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 28px;
-  
-  color: #89B404;
-  }
-
-  .porcent3 {
+    
+        .precin4 {
+          position: absolute;
+          top: 370px;
+          left: 397px;
+          width: 100%;
+          font-family: Saira Condensed;
+          font-weight: 490;
+          font-size: 24px;
+          color: #007DCF;
+          }
+    
+    
+          .precin5 {
+            position: absolute;
+            top: 470px;
+            left: 397px;
+            width: 100%;
+            font-family: Saira Condensed;
+            font-weight: 490;
+            font-size: 24px;
+            color: #007DCF;
+            }
+    
+    .desconto {
+      position: absolute;
+      left: 397px;
+      top: 5px;
+      
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 28px;
+      text-decoration: line-through;
+    
+      color: #062437;
+    }
+    
+    .desconto2 {
+      position: absolute;
+      left: 397px;
+      top: 100px;
+      
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 28px;
+      text-decoration: line-through;
+    
+      color: #062437;
+    }
+    
+    .desconto3 {
+      position: absolute;
+      left: 397px;
+      top: 210px;
+      
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 28px;
+      text-decoration: line-through;
+    
+      color: #062437;
+    }
+    
+    .desconto4 {
+      position: absolute;
+      left: 397px;
+      top: 320px;
+      
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 28px;
+      text-decoration: line-through;
+    
+      color: #062437;
+    }
+    
+    .desconto5 {
+      position: absolute;
+      left: 397px;
+      top: 430px;
+      
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 28px;
+      text-decoration: line-through;
+    
+      color: #062437;
+    }
+    
+    .porcent {
     position: absolute;
     left: 350px;
-    top: 210px;
+    top: 5px;
     
     font-family: Saira Condensed;
     font-weight: 600;
@@ -494,11 +962,11 @@ color: #89B404;
     
     color: #89B404;
     }
-
-    .porcent4 {
+    
+    .porcent2 {
       position: absolute;
       left: 350px;
-      top: 320px;
+      top: 100px;
       
       font-family: Saira Condensed;
       font-weight: 600;
@@ -507,11 +975,11 @@ color: #89B404;
       
       color: #89B404;
       }
-
-      .porcent5 {
+    
+      .porcent3 {
         position: absolute;
         left: 350px;
-        top: 430px;
+        top: 210px;
         
         font-family: Saira Condensed;
         font-weight: 600;
@@ -520,124 +988,152 @@ color: #89B404;
         
         color: #89B404;
         }
-
-
-.subtotal {
-  position: absolute;
-  top: 517px;
-  left: 13px;
-  font-family: Saira Condensed;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 38px;
-  
-  
-  color: #FFFFFF;
-}
-
-
-.subtotal2 {
-  position: absolute;
-  top: 517px;
-  left: 300px;
-  font-family: Saira Condensed;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 38px;
-  text-decoration: line-through;
-  
-  
-  color: #BC2D2D;;
-}
-
-
-.subtotal3 {
-  position: absolute;
-  top: 517px;
-  left: 400px;
-  font-family: Saira Condensed;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 38px;
-  
-  
-  color: #89B404;
-  ;
-}
-
-#linha-horizontal-pago {
-  position: absolute;
-  top: 65px;
-  left: 20px;
-  width: 200px;
-  border: 1px solid #C4C4C4;
-  transform: matrix(1, 0, 0, -1, 0, 0);
-}
-
-#linha-horizontal-pago2 {
-  position: absolute;
-  top: 130px;
-  left: 20px;
-  width: 200px;
-  border: 1px solid #C4C4C4;
-  transform: matrix(1, 0, 0, -1, 0, 0);
-}
-
-.check {
-  position: absolute;
-  left: 20px;
-  top: 25px;
-}
-
-.check2 {
-  position: absolute;
-  left: 20px;
-  top: 90px;
-}
-
-.check3 {
-  position: absolute;
-  left: 20px;
-  top: 155px;
-}
-
-.perfil {
-  position: absolute;
-  left: 1690px;
-  top: 10px;
-  width: 34px;
-  height: 32px;
-  cursor: pointer;
-  }
-  .carrinho {
-    position: absolute;
-    top: 0px;
-    left: 1620px;
-    cursor: pointer;
-  }
-  .entrar {
-    position: absolute;
-    top: 0px;
-    left: 1730px;
-    font-family: Saira Condensed;
-    font-style: normal;
-    font-weight: bold;
-    background-color: #171a21;
-    border: none;
-    width: 100px;
-    font-size: 24px;
-    color: #ffffff;
-    padding: 5px 15px;
-    cursor: pointer;
-    }
-    #rodape {
-      width: 100%;
-      height: 80px;
+    
+        .porcent4 {
+          position: absolute;
+          left: 350px;
+          top: 320px;
+          
+          font-family: Saira Condensed;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 28px;
+          
+          color: #89B404;
+          }
+    
+          .porcent5 {
+            position: absolute;
+            left: 350px;
+            top: 430px;
+            
+            font-family: Saira Condensed;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 28px;
+            
+            color: #89B404;
+            }
+    
+    
+    .subtotal {
+      position: absolute;
+      top: 517px;
+      left: 13px;
       font-family: Saira Condensed;
-      font-size: 12px;
-      text-align: center;
-      color: black
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 38px;
+      
+      
+      color: #FFFFFF;
+    }
+    
+    
+    .subtotal2 {
+      position: absolute;
+      top: 517px;
+      left: 300px;
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 38px;
+      text-decoration: line-through;
+      
+      
+      color: #BC2D2D;;
+    }
+    
+    
+    .subtotal3 {
+      position: absolute;
+      top: 517px;
+      left: 400px;
+      font-family: Saira Condensed;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 38px;
+      
+      
+      color: #89B404;
+      ;
+    }
+    
+    #linha-horizontal-pago {
+      position: absolute;
+      top: 65px;
+      left: 20px;
+      width: 200px;
+      border: 1px solid #C4C4C4;
+      transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    
+    #linha-horizontal-pago2 {
+      position: absolute;
+      top: 130px;
+      left: 20px;
+      width: 200px;
+      border: 1px solid #C4C4C4;
+      transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    
+    .check {
+      position: absolute;
+      left: 20px;
+      top: 25px;
+    }
+    
+    .check2 {
+      position: absolute;
+      left: 20px;
+      top: 90px;
+    }
+    
+    .check3 {
+      position: absolute;
+      left: 20px;
+      top: 155px;
+    }
+    
+    .perfil {
+      position: absolute;
+      left: 1690px;
+      top: 10px;
+      width: 34px;
+      height: 32px;
+      cursor: pointer;
+      }
+      .carrinho {
+        position: absolute;
+        top: 0px;
+        left: 1620px;
+        cursor: pointer;
+      }
+      .entrar {
+        position: absolute;
+        top: 0px;
+        left: 1730px;
+        font-family: Saira Condensed;
+        font-style: normal;
+        font-weight: bold;
+        background-color: #171a21;
+        border: none;
+        width: 100px;
+        font-size: 24px;
+        color: #ffffff;
+        padding: 5px 15px;
+        cursor: pointer;
+        }
+        #rodape {
+          width: 100%;
+          height: 80px;
+          font-family: Saira Condensed;
+          font-size: 12px;
+          text-align: center;
+          color: black
+      }
+
   }
