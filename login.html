@@ -4,6 +4,7 @@
     <link rel="shortcut icon" href="images/icon.png">
     <link rel="stylesheet" href="login.css" />
     <link rel="stylesheet" href="acessibilidade.css">
+    <script src="Login.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -50,31 +51,25 @@
     </svg></a>
   </header>
   <body>
-    <div class="container">
-    <section id="conteudo"><!--Conteudo-->
+    <form name="conteudo" id="cadastro" method="POST" onsubmit="controle();">
+    <fieldset>
         <h1 id="titulo">ENTRAR</h1>
         <h1 id="titulo1">REGISTRO</h1>
         <h1 id="separa"></h1>
-    </section>
-    <div>
-      <div class="fundo"></div>
-       <input
-        id="forms_entrar" type="text"
+       <input id="forms_entrar" type="text"
         placeholder="E-Mail"/>
-       <input 
-        id="forms_entrar1" type="text"
+       <input id="forms_entrar1" type="text"
         placeholder="Senha"/>
         <input type="submit" name="entrar" id="entrar"
         value="Entrar">
-
-        <input id="e-mail2" type="text" placeholder="E-mail">
+        <input id="email2" type="text"placeholder="E-mail">
         <input id="nome" type="text" placeholder="Nome">
         <input id="nome2" type="text" placeholder="Sobrenome">
         <input id="senha" type="password" placeholder="Senha">
         <input id="senha2" type="password" placeholder="Confirme a senha">
         <button id="confirm">CADASTRAR</button>
-      </div>
-    </div> 
+    </fieldset>
+    </form>
     <footer id="rodape"> Todos os direitos reservados &copy; 2021 </footer> <!--Rodapé-->   
 
 </body>
