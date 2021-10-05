@@ -1,6 +1,0 @@
-[SO] 1/6
-apresentar:
-
-Link(domínio da aplicação – sugerido caso não exista)
-Descrição
-Prototipação das telas já desenvolvidas

@@ -1,5 +1,0 @@
-[SO] 4/6
-Cliente:
-Browser
-SO
-App

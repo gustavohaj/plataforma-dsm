@@ -1,6 +1,0 @@
-[SO] 3/6
-Server(levantar no site do fabricante – IBM, DELL, HP etc):
-Processador
-Memoria
-Armazenamento
-Elementos de redundância(alta disponibilidade)

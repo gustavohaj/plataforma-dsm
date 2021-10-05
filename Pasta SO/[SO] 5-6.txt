@@ -1,3 +1,0 @@
-[SO] 5/6
-caminho a ser utilizado pelo cliente até o Web server(usar Packet Tracer(Cisco) para demonstrar com uma imagem)
-Protocolos no modelo TCP/IP e portas utilizadas
